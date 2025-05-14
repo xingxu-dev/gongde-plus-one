@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="counter">
+    <text class="counter-text">功德：{{count}}</text>
+  </view>
+  <view class="wooden-fish-container" bindtap="tapWoodenFish">
+    <image class="wooden-fish {{isActive ? 'wooden-fish-active' : ''}}" src="/static/wooden-fish.png" mode="aspectFit"></image>
+  </view>
+</view> 

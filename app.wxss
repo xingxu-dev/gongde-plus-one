@@ -1,0 +1,21 @@
+page {
+  background-color: #F5E6D3;
+  font-family: "楷体", KaiTi, serif;
+}
+
+/* 去除按钮默认边框 */
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+button::after {
+  border: none;
+}
+
+/* 去除图片默认间距 */
+image {
+  vertical-align: middle;
+} 

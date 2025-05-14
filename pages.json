@@ -1,0 +1,19 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "功德+1",
+				"navigationBarBackgroundColor": "#8B4513",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "功德+1",
+		"navigationBarBackgroundColor": "#8B4513",
+		"backgroundColor": "#F5E6D3"
+	},
+	"uniIdRouter": {}
+}

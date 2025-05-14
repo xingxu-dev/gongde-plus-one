@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "window": {
+        "navigationBarTitleText": "功德+1",
+        "navigationBarBackgroundColor": "#8B4513",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#F5E6D3"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+} 
