@@ -34,5 +34,11 @@ Page({
     if (this.audioContext) {
       this.audioContext.destroy();
     }
+  },
+
+  resetCount() {
+    this.setData({
+      count: 0
+    });
   }
 }) 
