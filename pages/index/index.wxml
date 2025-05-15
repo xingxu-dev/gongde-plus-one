@@ -9,13 +9,13 @@
     <button class="button"><text class="iconfont">🔊</text> 音量调节</button>
     <button class="button" bindtap="resetCount">重新开始</button>
   </view>
-  <view class="info-card">
+  <!-- <view class="info-card">
     <view class="info-card-title">木鱼的历史渊源</view>
     <view class="info-card-content">
       木鱼最早起源于古印度，后随佛教传入中国。在佛像供奉中，木鱼象征警醒和祈福。木鱼在现代被赋予不同意义，象征着修行人的自我警醒，不断精进修行。<br/>
       在寺庙中，僧人们往往会敲击木鱼，做功课时计其次数。其独特的声音不仅能帮助保持节奏，更能帮助调整修行人的内心和身心状态。
     </view>
-  </view>
+  </view> -->
   <view class="card-list">
     <view class="card">
       <view class="card-icon">❤️</view>
