@@ -60,21 +60,28 @@ page, .container {
 
 .button-group {
   display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-bottom: 32px;
+  justify-content: center; /* 让按钮在容器内部水平居中 */
+  align-items: center;     /* 如果按钮高度不同，垂直居中它们 */
+  gap: 16px;               /* 按钮之间的间距 */
+  margin: 24px 0 32px 0; /* 上下外边距，左右自动 */
+  width: 100%;             /* 关键：宽度充满父容器 */
+  max-width: 700px;        /* 可选：限制最大宽度，保持内容不过宽 */
 }
 .button {
+   /* 保持其他样式，如 background, color, border-radius, box-shadow 等 */
   background: #a86a2c;
   color: #fff;
   border: none;
   border-radius: 8px;
-  padding: 10px 28px;
+  padding: 10px 24px; /* 调整padding */
   font-size: 16px;
-  margin: 0 8px;
+  /* width: auto;  或者flex: 1 都可以，根据需要让按钮自适应或固定大小 */
+  /* flex-shrink: 0; 让按钮不要被过度挤压 */
   box-shadow: 0 2px 8px rgba(90, 58, 27, 0.08);
-  display: flex;
+  text-align: center; /* 按钮内文本居中 */
+  display: flex; /* 如果按钮内有图标或复杂内容，确保它们居中 */
   align-items: center;
+  justify-content: center;
 }
 .button:active {
   background: #8d5c2c;

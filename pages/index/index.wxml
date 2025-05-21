@@ -6,7 +6,7 @@
   </view>
   <view class="gongde">功德：<text class="gongde-num">{{count}}</text></view>
   <view class="button-group">
-    <button class="button"><text class="iconfont">🔊</text> 音量调节</button>
+    <button class="button" bindtap="switchSound">切换声音</button>
     <button class="button" bindtap="resetCount">重新开始</button>
   </view>
   <!-- <view class="info-card">
